@@ -1,5 +1,6 @@
 import React from 'react';
 import CoinItem from './CoinItem';
+import { Link } from 'react-router-dom';
 
 import './Coins.css';
 
