@@ -1,0 +1,17 @@
+.coin-container .content {
+  max-width: 740px;
+  margin: 1rem auto;
+  padding: .7rem 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color:#26272b ;
+  box-shadow:  0px 0px 12px  #18191b;
+}
+
+.rank {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
