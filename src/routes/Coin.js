@@ -37,10 +37,10 @@ useEffect(() => {
               <div className="coin-heading">
                 {coin.image ? <img src={coin.image.small} alt= ''  /> : null}
                 <p>{coin.name}</p>
-                <p>{coin.symbol}</p>
+                <p>{coin.name ?<p>{coin.symbol.toUpperCase()}/USD</p> : null}</p>
               </div>
               <div className="coin-price">
-                {coin.market_data?.current_price ? <h1>{coin.market_data.current_price.usd}</h1> : null}
+                {coin.market_data?.current_price ? <h1>${coin.market_data.current_price.usd.toLocaleString()}</h1> : null}
               </div>
           </div>
         </div>
